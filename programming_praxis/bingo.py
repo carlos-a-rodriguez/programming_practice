@@ -73,8 +73,8 @@ class Player():
         self.__found[row][i] = True
 
   def get_board(self):
-    """Returns 2D list of tuples in the form (int, boolean) where num is
-    the number in the cell and the boolean is True if the number has been
+    """Returns 2D list of tuples in the form (int, boolean) where the int
+    is the number in the cell and the boolean is True if the number has been
     called."""
     board = []
 
